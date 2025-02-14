@@ -1,0 +1,15 @@
+.indicator {
+    position: absolute;
+    right: 0;
+    top: 23px;
+
+    opacity: 0;
+    animation: fade 2s linear;
+    animation-delay: 5s;
+    animation-iteration-count: 2;
+}
+
+@keyframes fade {
+  0%,100% { opacity: 1 }
+  50% { opacity: 0 }
+}

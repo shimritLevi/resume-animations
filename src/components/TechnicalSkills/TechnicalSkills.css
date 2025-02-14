@@ -1,0 +1,18 @@
+@import '../../colors.css';
+
+.skills {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.skills>.skill {
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

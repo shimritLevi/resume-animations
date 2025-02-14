@@ -1,0 +1,8 @@
+@import '../../colors.css';
+
+h2 {
+    font-size: 21px;
+    font-weight: 600;
+    margin: 6px 0;
+    color: var(--dark-blue);
+}
