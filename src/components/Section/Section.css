@@ -1,0 +1,26 @@
+@import '../../colors.css';
+
+.section-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 45px 0;
+    justify-content: space-between;
+}
+
+.section-container>.icon {
+    width: 24%;
+}
+
+.section-container>.icon>i {
+    font-size: 70px;
+    padding: 35px;
+}
+
+.section-container>.title {
+    width: 29%;
+}
+
+.section-container>.content {
+    width: 44%;
+}

@@ -29,11 +29,11 @@ export const ResizablePanel = ({ children }: IResizablePanel) => {
     return (
         <motion.div
             className={`resizable-panel cursor-pointer ${isExpanded ? 'expanded' : ''}`}
-            style={isExpanded ? { top: "10%", right: "20%", left: "20%", transform: "translate(-50%, -50%)" } : {}}
+            style={isExpanded ? { top: "10%", right: "10%", left: "10%", transform: "translate(-50%, -50%)" } : {}}
             initial={{ scale: 1 }}
             animate={{ scale: isExpanded ? 1.2 : 1 }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
-            whileHover={isExpanded ? {} : { scale: 1.02 }}
+            // whileHover={isExpanded ? {} : { scale: 1.02 }}
             onClick={() => handleClick()}
         >
             {children}

@@ -1,5 +1,5 @@
+import { motion } from 'framer-motion';
 import { Experience } from './Experience/Experience';
-import './ProfessionalExperience.css';
 
 export const ProfessionalExperience: React.FC = () => {
 
@@ -102,11 +102,19 @@ export const ProfessionalExperience: React.FC = () => {
 
     return (
         <>
-            <h3 className="section-header typing-animation">Professional Experience</h3>
-            <Experience title="MSBit - Software Developer" date="2021-2024" list={list1} />
-            <Experience title="Cav Systems – Software developer" date="2019-2021" list={list2} />
-            <Experience title="Tutor for mathematics matriculation" date="2014-2019" list={list4} />
-            <Experience title="John Bryce MATRIX - Embedding software, Student" date="2016" list={list3} />
+            <motion.h3 className="top-section-header"
+                initial={{ opacity: 0, scale: 0 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{
+                    duration: 2.4,
+                    scale: { type: "tween", visualDuration: 0.4, bounce: 0.5 },
+                }}>
+                - Professional Experience -
+            </motion.h3>
+            <Experience title="MSBit - Software Developer" date="2021-2024" list={list1} iconName='window-restore' />
+            <Experience title="Cav Systems – Software developer" date="2019-2021" list={list2} iconName='gear' />
+            <Experience title="Tutor for mathematics matriculation" date="2014-2019" list={list4} iconName='subscript' />
+            <Experience title="John Bryce MATRIX - Embedding software, Student" date="2016" list={list3} iconName='graduation-cap' />
         </>
     )
 }

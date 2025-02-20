@@ -1,5 +1,9 @@
 :root {
+    --dark-bg: #1e1e1e;
+    --text-color: #ebebf3;
     --dark-blue: #3965a5;
     --light-blue: #539cd1;
     --gray: #888f97;
+    --top-header-bg: #434e58;
+    --top-header-color: #11222f;
 }
