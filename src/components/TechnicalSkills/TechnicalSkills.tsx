@@ -34,14 +34,18 @@ export const TechnicalSkills: React.FC = () => {
             <motion.div className="skill" variants={listVariants}>Angular</motion.div>
             <motion.div className="skill" variants={listVariants}>React</motion.div>
             <motion.div className="skill" variants={listVariants}>JavaScript</motion.div>
+            <motion.div className="skill" variants={listVariants}>TypeScript</motion.div>
             <motion.div className="skill" variants={listVariants}>Java</motion.div>
             <motion.div className="skill" variants={listVariants}>CSS</motion.div>
             <motion.div className="skill" variants={listVariants}>HTML</motion.div>
+            <motion.div className="skill" variants={listVariants}>Java Web Start</motion.div>
             <motion.div className="skill" variants={listVariants}>WordPress</motion.div>
             <motion.div className="skill" variants={listVariants}>Jira</motion.div>
             <motion.div className="skill" variants={listVariants}>GitHub</motion.div>
+            <motion.div className="skill" variants={listVariants}>Bitbucket</motion.div>
             <motion.div className="skill" variants={listVariants}>SQL</motion.div>
             <motion.div className="skill" variants={listVariants}>Ruby on Rails</motion.div>
+            <motion.div className="skill" variants={listVariants}>Monday</motion.div>
             <motion.div className="skill" variants={listVariants}>OPP</motion.div>
             <motion.div className="skill" variants={listVariants}>Project Management</motion.div>
             <motion.div className="skill" variants={listVariants}>Analysis and Design</motion.div>
