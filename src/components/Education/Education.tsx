@@ -51,7 +51,7 @@ export const Education: React.FC = () => {
 
     return (
         <>
-            <motion.h3 className="top-section-header"
+            <motion.h3 className="top-section-header duration-[1s]"
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{

@@ -9,6 +9,7 @@ export const Separator: React.FC = () => {
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{
+                // duration: '2s'
                 duration: 1.4,
                 scale: { type: "tween", visualDuration: 0.4, bounce: 0.5 },
             }}

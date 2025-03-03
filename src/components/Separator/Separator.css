@@ -2,4 +2,5 @@
 
 .separator {
     background-color: var(--text-color);
+    transition-duration: 1s;
 }

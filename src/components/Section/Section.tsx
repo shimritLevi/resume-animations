@@ -11,7 +11,7 @@ export const Section = ({ title, content, icon }: ISection) => {
         <>
             <ResizablePanel>
                 <motion.div className="section-container justify-space-between">
-                    <motion.div className='icon'
+                    <motion.div className='icon duration-[1s]'
                         initial={{ opacity: 0, scale: 0 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{
@@ -20,13 +20,13 @@ export const Section = ({ title, content, icon }: ISection) => {
                         }}>
                         {icon}
                     </motion.div>
-                    <motion.div className='title'
+                    <motion.div className='title duration-[1s]'
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0 }}>
                         {title}
                     </motion.div>
-                    <div className="content">
+                    <div className="content duration-[1s]">
                         {content}
                     </div>
                 </motion.div>

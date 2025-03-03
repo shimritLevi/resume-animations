@@ -9,7 +9,6 @@
     position: fixed;
     z-index: 1;
     background-color: var(--dark-bg);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius: 10px;
+    box-shadow: rgb(135 128 128 / 25%) 0px 54px 55px, rgb(217 217 217 / 12%) 0px -12px 30px, rgb(255 252 252 / 12%) 0px 4px 6px, rgb(255 249 249 / 17%) 0px 12px 13px, rgb(255 255 255 / 9%) 0px -3px 5px;    border-radius: 10px;
     padding: 10px 20px;
 }
