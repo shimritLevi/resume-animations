@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/resume-animations/static/css/main.414442e2.css",
+    "main.js": "/resume-animations/static/js/main.de3ddb12.js",
+    "index.html": "/resume-animations/index.html",
+    "main.414442e2.css.map": "/resume-animations/static/css/main.414442e2.css.map",
+    "main.de3ddb12.js.map": "/resume-animations/static/js/main.de3ddb12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.414442e2.css",
+    "static/js/main.de3ddb12.js"
+  ]
+}
